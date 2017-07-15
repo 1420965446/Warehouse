@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gaga="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.activity.setup.SettingActivity">
+
+    <TextView
+        style="@style/headLayout"
+        android:text="设置"
+        />
+
+
+    <com.m5266.mymobilebutler.activity.custom.itemRelativeLayout
+        android:id="@+id/set_item_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/open1_select"
+        android:clickable="true"
+        gaga:mtext="开启自动更新">
+    </com.m5266.mymobilebutler.activity.custom.itemRelativeLayout>
+
+    <com.m5266.mymobilebutler.activity.custom.itemRelativeLayout
+        android:id="@+id/set_item_rl_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open2_select"
+        android:clickable="true"
+        gaga:mtext="开启黑名单拦截"
+        >
+    </com.m5266.mymobilebutler.activity.custom.itemRelativeLayout>
+
+    <com.m5266.mymobilebutler.activity.custom.itemRelativeLayout
+        android:id="@+id/set_item_rl_rocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open2_select"
+        android:clickable="true"
+        gaga:mtext="开启卫士小火箭"
+        >
+    </com.m5266.mymobilebutler.activity.custom.itemRelativeLayout>
+
+    <com.m5266.mymobilebutler.activity.custom.itemRelativeLayout
+        android:id="@+id/set_item_rl_clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open2_select"
+        android:clickable="true"
+        gaga:mtext="开启时钟小助手"
+        >
+    </com.m5266.mymobilebutler.activity.custom.itemRelativeLayout>
+
+    <com.m5266.mymobilebutler.activity.custom.itemRelativeLayout
+        android:id="@+id/set_item_rl_locationshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open2_select"
+        android:clickable="true"
+        gaga:mtext="开启号码归属地显示"
+        >
+    </com.m5266.mymobilebutler.activity.custom.itemRelativeLayout>
+
+    <com.m5266.mymobilebutler.activity.custom.itemRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/open3_select"
+        android:clickable="true"
+        gaga:mtext="开启程序锁看门狗"
+        >
+    </com.m5266.mymobilebutler.activity.custom.itemRelativeLayout>
+
+
+</LinearLayout>

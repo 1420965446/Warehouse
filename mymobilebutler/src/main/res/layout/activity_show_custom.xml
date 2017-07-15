@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.m5266.mymobilebutler.activity.activity.attribution.ShowCustomActivity">
+
+    <Button
+        android:id="@+id/show_custom_button_hll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_select"
+        android:text="红绿蓝"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/show_custom_button_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_select"
+        android:text="滑动条"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/show_custom_button_roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_select"
+        android:text="轮播图"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/show_custom_button_offno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_select"
+        android:text="开关"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/show_custom_button_sideslip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_select"
+        android:text="侧滑"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/show_custom_button_clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_select"
+        android:text="时钟"
+        android:textColor="#fff"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>

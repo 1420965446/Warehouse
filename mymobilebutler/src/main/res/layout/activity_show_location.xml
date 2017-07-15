@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.activity.attribution.ShowLocationActivity">
+
+        <TextView
+            android:text="号码归属地查询"
+            style="@style/headLayout"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="请输入号码:"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/showlocation_et_phone"
+            android:layout_width="match_parent"
+            android:hint="查询的号码"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+
+            android:onClick="selectLocation"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:text="提交"
+            android:background="@drawable/dialog_select"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/showlocation_tv_location"
+            android:layout_width="match_parent"
+            android:text="归属地为:北京"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+

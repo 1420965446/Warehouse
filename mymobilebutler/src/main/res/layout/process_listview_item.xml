@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:descendantFocusability="blocksDescendants">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/process_lv_im"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#234567"
+        />
+    <LinearLayout
+        android:id="@+id/process_ll"
+        android:layout_toRightOf="@id/process_lv_im"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/process_lv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="应用名称"/>
+        <TextView
+            android:id="@+id/process_lv_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机内存"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+</LinearLayout>

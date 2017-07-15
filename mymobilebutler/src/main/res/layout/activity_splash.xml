@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@mipmap/langcccc">
+
+        <ImageView
+
+            android:id="@+id/main_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/gy"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/main_logo"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小码哥卫士"
+                android:textColor="#fff"
+                android:textSize="22sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/main_logo"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:text="银角大王将宝葫芦倒置，喊了一声：周鸿祎。周鸿祎应了一声，嗖地便被吸了进去。银角大王查看时，里面除了周鸿祎，还有360杀毒、360压缩、360浏览器、360安全卫士、360游戏大厅等熙熙攘攘一干人。银角大王惊讶道：怎的来了这许多。宝葫芦开口言道：我就只点了个‘下一步’。"
+                android:textColor="#fff"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sp_set_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/g1"/>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/main_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+
+</LinearLayout>

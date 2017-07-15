@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="itemRelativeLayout">
+        <attr name="mtext" format="string"/>
+        <attr name="mback" >
+            <enum name="one" value="1"/>
+            <enum name="two" value="2"/>
+            <enum name="three" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TextFlipper">
+        <attr name="fontSize" format="dimension"/>
+        <attr name="fontColor" format="color"/>
+    </declare-styleable>
+</resources>

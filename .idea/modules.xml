@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MApp.iml" filepath="$PROJECT_DIR$/MApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymobilebutler/mymobilebutler.iml" filepath="$PROJECT_DIR$/mymobilebutler/mymobilebutler.iml" />
+    </modules>
+  </component>
+</project>

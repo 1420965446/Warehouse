@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.m5266.mymobilebutler.activity.activity.attribution.custom.ClockActivity">
+
+    <com.m5266.mymobilebutler.activity.custom.ClockView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="16dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="时"
+            android:background="#acacac"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="16dp"
+            android:background="#acacac"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="分"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="16dp"
+            android:background="#acacac"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="秒"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
